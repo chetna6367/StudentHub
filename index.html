@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Hub | 2nd Year</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <i>📚</i> Student Learning Hub
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#subjects">Subjects</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#progress">Progress</a></li>
+                    <li><a href="#" class="btn">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Your 2nd Year Learning Hub</h1>
+            <p>Organize your studies, track your progress, and access all your learning resources in one place.</p>
+            <a href="#subjects" class="btn">Explore Subjects</a>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects">
+        <div class="container">
+            <h2 class="section-title">Your Subjects</h2>
+            <div class="subjects-grid">
+                <!-- Subject Card 1 -->
+                <div class="subject-card">
+                    <div class="subject-icon">📊</div>
+                    <div class="subject-content">
+                        <h3>Data Structures</h3>
+                        <p>Learn about arrays, linked lists, trees, and algorithms.</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%"></div>
+                        </div>
+                        <p>Progress: 65%</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Continue</a>
+                    </div>
+                </div>
+                
+                <!-- Subject Card 2 -->
+                <div class="subject-card">
+                    <div class="subject-icon">🌐</div>
+                    <div class="subject-content">
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript and modern frameworks.</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 40%"></div>
+                        </div>
+                        <p>Progress: 40%</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Continue</a>
+                    </div>
+                </div>
+                
+                <!-- Subject Card 3 -->
+                <div class="subject-card">
+                    <div class="subject-icon">🔢</div>
+                    <div class="subject-content">
+                        <h3>Discrete Mathematics</h3>
+                        <p>Logic, sets, relations, functions and graph theory.</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                        <p>Progress: 75%</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Continue</a>
+                    </div>
+                </div>
+                
+                <!-- Subject Card 4 -->
+                <div class="subject-card">
+                    <div class="subject-icon">💾</div>
+                    <div class="subject-content">
+                        <h3>Database Systems</h3>
+                        <p>SQL, normalization, transactions and database design.</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%"></div>
+                        </div>
+                        <p>Progress: 50%</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Continue</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" style="background-color: var(--light-color);">
+        <div class="container">
+            <h2 class="section-title">Learning Resources</h2>
+            <div class="resources-container">
+                <!-- Resource 1 -->
+                <div class="resource-card">
+                    <div class="resource-icon">📖</div>
+                    <div class="resource-content">
+                        <h3>Textbooks</h3>
+                        <p>Access all your required textbooks and reference materials.</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Browse</a>
+                    </div>
+                </div>
+                
+                <!-- Resource 2 -->
+                <div class="resource-card">
+                    <div class="resource-icon">🎬</div>
+                    <div class="resource-content">
+                        <h3>Video Lectures</h3>
+                        <p>Watch recorded lectures and tutorial videos.</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Watch</a>
+                    </div>
+                </div>
+                
+                <!-- Resource 3 -->
+                <div class="resource-card">
+                    <div class="resource-icon">📝</div>
+                    <div class="resource-content">
+                        <h3>Practice Problems</h3>
+                        <p>Solve exercises and practice questions with solutions.</p>
+                        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Practice</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar">
+        <div class="container">
+            <h2 class="section-title">Study Calendar</h2>
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <h3>October 2023</h3>
+                    <div>
+                        <button class="btn" style="padding: 8px 16px; margin-right: 10px;">Previous</button>
+                        <button class="btn" style="padding: 8px 16px;">Next</button>
+                    </div>
+                </div>
+                <div class="calendar-grid">
+                    <div class="calendar-day">Sun</div>
+                    <div class="calendar-day">Mon</div>
+                    <div class="calendar-day">Tue</div>
+                    <div class="calendar-day">Wed</div>
+                    <div class="calendar-day">Thu</div>
+                    <div class="calendar-day">Fri</div>
+                    <div class="calendar-day">Sat</div>
+                    
+                    <!-- Calendar dates would be generated dynamically in a real application -->
+                    <div class="calendar-date">1</div>
+                    <div class="calendar-date">2</div>
+                    <div class="calendar-date">3</div>
+                    <div class="calendar-date">4</div>
+                    <div class="calendar-date">5</div>
+                    <div class="calendar-date">6</div>
+                    <div class="calendar-date">7</div>
+                    
+                    <div class="calendar-date">8</div>
+                    <div class="calendar-date">9</div>
+                    <div class="calendar-date">10</div>
+                    <div class="calendar-date has-event">11</div>
+                    <div class="calendar-date">12</div>
+                    <div class="calendar-date">13</div>
+                    <div class="calendar-date">14</div>
+                    
+                    <div class="calendar-date">15</div>
+                    <div class="calendar-date">16</div>
+                    <div class="calendar-date has-event">17</div>
+                    <div class="calendar-date">18</div>
+                    <div class="calendar-date">19</div>
+                    <div class="calendar-date today">20</div>
+                    <div class="calendar-date">21</div>
+                    
+                    <div class="calendar-date">22</div>
+                    <div class="calendar-date">23</div>
+                    <div class="calendar-date">24</div>
+                    <div class="calendar-date has-event">25</div>
+                    <div class="calendar-date">26</div>
+                    <div class="calendar-date">27</div>
+                    <div class="calendar-date">28</div>
+                    
+                    <div class="calendar-date">29</div>
+                    <div class="calendar-date">30</div>
+                    <div class="calendar-date">31</div>
+                    <div class="calendar-date"></div>
+                    <div class="calendar-date"></div>
+                    <div class="calendar-date"></div>
+                    <div class="calendar-date"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Student Learning Hub</h3>
+                    <p>Your comprehensive platform for 2nd year studies. Organize, track, and excel in your academic journey.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#subjects">Subjects</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#calendar">Calendar</a></li>
+                        <li><a href="#progress">Progress Tracker</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Email: kanawatchetna@gmail.com</li>
+                        <li>Phone: 6367167770 , 7357307011</li>
+                        <li>Address: Om Nagar Bhilwara Rajasthan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Student Learning Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
