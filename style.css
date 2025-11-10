@@ -375,3 +375,8 @@
                 font-size: 1rem;
             }
         }
+
+        /* commit in BugFix  */
+        .hero p {
+            font-weight: 100;
+        }
